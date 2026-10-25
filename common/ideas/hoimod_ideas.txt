@@ -1,0 +1,30 @@
+# 100 = +10000%. Практический потолок скорости — около 1000 (+100000%):
+# дальше строительство, исследования и спецпроекты упираются в 1 день.
+# Объём производства выше 1000–10000 может переполнить склад техники.
+@hoimod_bonus = 100
+
+ideas = {
+	country = {
+		hoimod_super_spirit = {
+			picture = GFX_idea_generic_research_bonus
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = @hoimod_bonus
+				research_speed_factor = @hoimod_bonus
+				special_project_speed_factor = @hoimod_bonus
+				industrial_capacity_factory = @hoimod_bonus
+				industrial_capacity_dockyard = @hoimod_bonus
+				production_factory_max_efficiency_factor = @hoimod_bonus
+				production_factory_efficiency_gain_factor = @hoimod_bonus
+				production_factory_start_efficiency_factor = @hoimod_bonus
+				operative_slot = 8
+			}
+		}
+	}
+}

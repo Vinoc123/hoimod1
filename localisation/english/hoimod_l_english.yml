@@ -1,0 +1,50 @@
+﻿l_english:
+ hoimod_cheat_category: "Cheat Buttons"
+ hoimod_cheat_category_desc: "Only for the country you are playing."
+
+ hoimod_super_spirit: "Absolute Advantage"
+ hoimod_super_spirit_desc: "Construction, research, production and dockyards are accelerated. Eight operative slots."
+
+ hoimod_spirit: "National Spirit"
+ hoimod_spirit_desc: "Grants the spirit, 100 breakthrough points in every field and researches every technology."
+ hoimod_research_all_tt: "Researches every technology."
+
+ hoimod_resources: "Resources in States"
+ hoimod_resources_desc: "A huge amount of every resource in every controlled state."
+ hoimod_resources_tt: "Every resource in every controlled state."
+
+ hoimod_slots: "Building Slots"
+ hoimod_slots_desc: "Five building slots in every controlled state."
+ hoimod_slots_tt: "§G+5§! building slots in every controlled state."
+
+ hoimod_mils: "Military Factories"
+ hoimod_mils_desc: "Five military factories in every controlled state."
+ hoimod_mils_tt: "§G+5§! military factories in every controlled state."
+
+ hoimod_civs: "Civilian Factories"
+ hoimod_civs_desc: "Five civilian factories in every controlled state."
+ hoimod_civs_tt: "§G+5§! civilian factories in every controlled state."
+
+ hoimod_air_bases: "Air Bases"
+ hoimod_air_bases_desc: "Five air bases in every controlled state."
+ hoimod_air_bases_tt: "§G+5§! air bases in every controlled state."
+
+ hoimod_radar: "Radar"
+ hoimod_radar_desc: "A radar station in every controlled state."
+ hoimod_radar_tt: "A radar station in every controlled state."
+
+ hoimod_supply: "Supply Hubs"
+ hoimod_supply_desc: "A supply hub in every province of controlled states."
+ hoimod_supply_tt: "A supply hub in every province of controlled states."
+
+ hoimod_railways: "Railways"
+ hoimod_railways_desc: "A level 5 railway from the capital to every controlled state. Build supply hubs first."
+ hoimod_railways_tt: "A level §Y5§! railway from the capital to the best supply hub in every controlled state."
+
+ hoimod_rockets: "Rocket Sites"
+ hoimod_rockets_desc: "Three rocket sites in every controlled state."
+ hoimod_rockets_tt: "§G3§! rocket sites in every controlled state."
+
+ hoimod_reactors: "Nuclear Reactors"
+ hoimod_reactors_desc: "A nuclear reactor in every controlled state."
+ hoimod_reactors_tt: "A nuclear reactor in every controlled state."

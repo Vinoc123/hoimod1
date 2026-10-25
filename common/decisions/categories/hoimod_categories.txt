@@ -1,0 +1,13 @@
+hoimod_cheat_category = {
+	icon = GFX_decision_category_generic_industry
+
+	priority = 1000
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		is_ai = no
+	}
+}

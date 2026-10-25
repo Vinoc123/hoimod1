@@ -1,0 +1,106 @@
+# Количество каждого ресурса в каждом контролируемом регионе.
+@hoimod_resources = 10000
+
+hoimod_add_resources = {
+	every_controlled_state = {
+		add_resource = { type = oil amount = @hoimod_resources }
+		add_resource = { type = aluminium amount = @hoimod_resources }
+		add_resource = { type = rubber amount = @hoimod_resources }
+		add_resource = { type = tungsten amount = @hoimod_resources }
+		add_resource = { type = steel amount = @hoimod_resources }
+		add_resource = { type = chromium amount = @hoimod_resources }
+	}
+}
+
+hoimod_add_slots = {
+	every_controlled_state = {
+		add_extra_state_shared_building_slots = 5
+	}
+}
+
+hoimod_add_mils = {
+	every_controlled_state = {
+		add_building_construction = {
+			type = arms_factory
+			level = 5
+			instant_build = yes
+		}
+	}
+}
+
+hoimod_add_civs = {
+	every_controlled_state = {
+		add_building_construction = {
+			type = industrial_complex
+			level = 5
+			instant_build = yes
+		}
+	}
+}
+
+hoimod_add_air_bases = {
+	every_controlled_state = {
+		add_building_construction = {
+			type = air_base
+			level = 5
+			instant_build = yes
+		}
+	}
+}
+
+hoimod_add_radar = {
+	every_controlled_state = {
+		add_building_construction = {
+			type = radar_station
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+hoimod_add_supply = {
+	every_controlled_state = {
+		add_building_construction = {
+			type = supply_node
+			level = 1
+			instant_build = yes
+			province = {
+				all_provinces = yes
+			}
+		}
+	}
+}
+
+hoimod_build_railways = {
+	every_controlled_state = {
+		limit = {
+			NOT = { is_capital = yes }
+		}
+		build_railway = {
+			level = 5
+			fallback = yes
+			start_state = ROOT.capital
+			target_state = THIS
+		}
+	}
+}
+
+hoimod_add_rockets = {
+	every_controlled_state = {
+		add_building_construction = {
+			type = rocket_site
+			level = 3
+			instant_build = yes
+		}
+	}
+}
+
+hoimod_add_reactors = {
+	every_controlled_state = {
+		add_building_construction = {
+			type = nuclear_reactor
+			level = 1
+			instant_build = yes
+		}
+	}
+}

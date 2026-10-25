@@ -48,3 +48,6 @@
  hoimod_reactors: "Ядерные реакторы"
  hoimod_reactors_desc: "Ядерный реактор в каждом контролируемом регионе."
  hoimod_reactors_tt: "Ядерный реактор в каждом контролируемом регионе."
+
+ hoimod_manpower: "Людские ресурсы"
+ hoimod_manpower_desc: "Миллион людских ресурсов."

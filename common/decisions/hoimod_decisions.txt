@@ -272,4 +272,24 @@ hoimod_cheat_category = {
 			}
 		}
 	}
+
+	hoimod_manpower = {
+		icon = GFX_decision_generic_army_support
+
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+
+		visible = {
+			is_ai = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			add_manpower = 1000000
+		}
+	}
 }

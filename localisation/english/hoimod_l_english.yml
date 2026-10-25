@@ -48,3 +48,6 @@
  hoimod_reactors: "Nuclear Reactors"
  hoimod_reactors_desc: "A nuclear reactor in every controlled state."
  hoimod_reactors_tt: "A nuclear reactor in every controlled state."
+
+ hoimod_manpower: "Manpower"
+ hoimod_manpower_desc: "One million manpower."

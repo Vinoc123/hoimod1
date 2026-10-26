@@ -1,6 +1,67 @@
 # Количество каждого ресурса в каждом контролируемом регионе.
 @hoimod_resources = 10000
 
+hoimod_clear_spirits = {
+	if = {
+		limit = { has_idea = hoimod_super_spirit }
+		remove_ideas = hoimod_super_spirit
+	}
+	if = {
+		limit = { has_idea = hoimod_super_spirit_500 }
+		remove_ideas = hoimod_super_spirit_500
+	}
+	if = {
+		limit = { has_idea = hoimod_super_spirit_1000 }
+		remove_ideas = hoimod_super_spirit_1000
+	}
+	if = {
+		limit = { has_idea = hoimod_super_spirit_3000 }
+		remove_ideas = hoimod_super_spirit_3000
+	}
+	if = {
+		limit = { has_idea = hoimod_super_spirit_5000 }
+		remove_ideas = hoimod_super_spirit_5000
+	}
+	if = {
+		limit = { has_idea = hoimod_super_spirit_7000 }
+		remove_ideas = hoimod_super_spirit_7000
+	}
+	if = {
+		limit = { has_idea = hoimod_super_spirit_10000 }
+		remove_ideas = hoimod_super_spirit_10000
+	}
+}
+
+hoimod_apply_spirit_500 = {
+	hoimod_clear_spirits = yes
+	add_ideas = hoimod_super_spirit_500
+}
+
+hoimod_apply_spirit_1000 = {
+	hoimod_clear_spirits = yes
+	add_ideas = hoimod_super_spirit_1000
+}
+
+hoimod_apply_spirit_3000 = {
+	hoimod_clear_spirits = yes
+	add_ideas = hoimod_super_spirit_3000
+}
+
+hoimod_apply_spirit_5000 = {
+	hoimod_clear_spirits = yes
+	add_ideas = hoimod_super_spirit_5000
+}
+
+hoimod_apply_spirit_7000 = {
+	hoimod_clear_spirits = yes
+	add_ideas = hoimod_super_spirit_7000
+}
+
+hoimod_apply_spirit_10000 = {
+	hoimod_clear_spirits = yes
+	add_ideas = hoimod_super_spirit_10000
+}
+
 hoimod_add_resources = {
 	every_controlled_state = {
 		add_resource = { type = oil amount = @hoimod_resources }

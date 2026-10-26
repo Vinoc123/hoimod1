@@ -15,7 +15,6 @@ hoimod_cheat_category = {
 		}
 
 		complete_effect = {
-			add_ideas = hoimod_super_spirit
 			add_breakthrough_points = {
 				specialization = all
 				value = 100
@@ -30,6 +29,167 @@ hoimod_cheat_category = {
 			custom_effect_tooltip = hoimod_research_all_tt
 			hidden_effect = {
 				hoimod_research_all = yes
+			}
+		}
+	}
+
+	hoimod_spirit_500 = {
+		icon = GFX_decision_generic_research
+
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+
+		visible = {
+			is_ai = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			show_ideas_tooltip = hoimod_super_spirit_500
+			hidden_effect = {
+				hoimod_apply_spirit_500 = yes
+			}
+		}
+	}
+
+	hoimod_spirit_1000 = {
+		icon = GFX_decision_generic_research
+
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+
+		visible = {
+			is_ai = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			show_ideas_tooltip = hoimod_super_spirit_1000
+			hidden_effect = {
+				hoimod_apply_spirit_1000 = yes
+			}
+		}
+	}
+
+	hoimod_spirit_3000 = {
+		icon = GFX_decision_generic_research
+
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+
+		visible = {
+			is_ai = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			show_ideas_tooltip = hoimod_super_spirit_3000
+			hidden_effect = {
+				hoimod_apply_spirit_3000 = yes
+			}
+		}
+	}
+
+	hoimod_spirit_5000 = {
+		icon = GFX_decision_generic_research
+
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+
+		visible = {
+			is_ai = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			show_ideas_tooltip = hoimod_super_spirit_5000
+			hidden_effect = {
+				hoimod_apply_spirit_5000 = yes
+			}
+		}
+	}
+
+	hoimod_spirit_7000 = {
+		icon = GFX_decision_generic_research
+
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+
+		visible = {
+			is_ai = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			show_ideas_tooltip = hoimod_super_spirit_7000
+			hidden_effect = {
+				hoimod_apply_spirit_7000 = yes
+			}
+		}
+	}
+
+	hoimod_spirit_10000 = {
+		icon = GFX_decision_generic_research
+
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+
+		visible = {
+			is_ai = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			show_ideas_tooltip = hoimod_super_spirit_10000
+			hidden_effect = {
+				hoimod_apply_spirit_10000 = yes
+			}
+		}
+	}
+
+	hoimod_spirit_clear = {
+		icon = GFX_decision_generic_break_treaty
+
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+
+		visible = {
+			is_ai = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = hoimod_spirit_clear_tt
+			hidden_effect = {
+				hoimod_clear_spirits = yes
 			}
 		}
 	}

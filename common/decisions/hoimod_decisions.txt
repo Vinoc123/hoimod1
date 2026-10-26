@@ -49,6 +49,7 @@ hoimod_cheat_category = {
 		}
 
 		complete_effect = {
+			custom_effect_tooltip = hoimod_research_all_tt
 			show_ideas_tooltip = hoimod_super_spirit_500
 			hidden_effect = {
 				hoimod_apply_spirit_500 = yes
@@ -72,6 +73,7 @@ hoimod_cheat_category = {
 		}
 
 		complete_effect = {
+			custom_effect_tooltip = hoimod_research_all_tt
 			show_ideas_tooltip = hoimod_super_spirit_1000
 			hidden_effect = {
 				hoimod_apply_spirit_1000 = yes
@@ -95,6 +97,7 @@ hoimod_cheat_category = {
 		}
 
 		complete_effect = {
+			custom_effect_tooltip = hoimod_research_all_tt
 			show_ideas_tooltip = hoimod_super_spirit_3000
 			hidden_effect = {
 				hoimod_apply_spirit_3000 = yes
@@ -118,6 +121,7 @@ hoimod_cheat_category = {
 		}
 
 		complete_effect = {
+			custom_effect_tooltip = hoimod_research_all_tt
 			show_ideas_tooltip = hoimod_super_spirit_5000
 			hidden_effect = {
 				hoimod_apply_spirit_5000 = yes
@@ -141,6 +145,7 @@ hoimod_cheat_category = {
 		}
 
 		complete_effect = {
+			custom_effect_tooltip = hoimod_research_all_tt
 			show_ideas_tooltip = hoimod_super_spirit_7000
 			hidden_effect = {
 				hoimod_apply_spirit_7000 = yes
@@ -164,6 +169,7 @@ hoimod_cheat_category = {
 		}
 
 		complete_effect = {
+			custom_effect_tooltip = hoimod_research_all_tt
 			show_ideas_tooltip = hoimod_super_spirit_10000
 			hidden_effect = {
 				hoimod_apply_spirit_10000 = yes

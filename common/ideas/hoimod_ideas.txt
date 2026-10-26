@@ -29,6 +29,7 @@ ideas = {
 				production_factory_max_efficiency_factor = @hoimod_bonus_10000
 				production_factory_efficiency_gain_factor = @hoimod_bonus_10000
 				production_factory_start_efficiency_factor = @hoimod_bonus_10000
+				experience_gain_army_unit_factor = @hoimod_bonus_10000
 				operative_slot = 8
 			}
 		}
@@ -51,6 +52,7 @@ ideas = {
 				production_factory_max_efficiency_factor = @hoimod_bonus_500
 				production_factory_efficiency_gain_factor = @hoimod_bonus_500
 				production_factory_start_efficiency_factor = @hoimod_bonus_500
+				experience_gain_army_unit_factor = @hoimod_bonus_500
 				operative_slot = 8
 			}
 		}
@@ -73,6 +75,7 @@ ideas = {
 				production_factory_max_efficiency_factor = @hoimod_bonus_1000
 				production_factory_efficiency_gain_factor = @hoimod_bonus_1000
 				production_factory_start_efficiency_factor = @hoimod_bonus_1000
+				experience_gain_army_unit_factor = @hoimod_bonus_1000
 				operative_slot = 8
 			}
 		}
@@ -95,6 +98,7 @@ ideas = {
 				production_factory_max_efficiency_factor = @hoimod_bonus_3000
 				production_factory_efficiency_gain_factor = @hoimod_bonus_3000
 				production_factory_start_efficiency_factor = @hoimod_bonus_3000
+				experience_gain_army_unit_factor = @hoimod_bonus_3000
 				operative_slot = 8
 			}
 		}
@@ -117,6 +121,7 @@ ideas = {
 				production_factory_max_efficiency_factor = @hoimod_bonus_5000
 				production_factory_efficiency_gain_factor = @hoimod_bonus_5000
 				production_factory_start_efficiency_factor = @hoimod_bonus_5000
+				experience_gain_army_unit_factor = @hoimod_bonus_5000
 				operative_slot = 8
 			}
 		}
@@ -139,6 +144,7 @@ ideas = {
 				production_factory_max_efficiency_factor = @hoimod_bonus_7000
 				production_factory_efficiency_gain_factor = @hoimod_bonus_7000
 				production_factory_start_efficiency_factor = @hoimod_bonus_7000
+				experience_gain_army_unit_factor = @hoimod_bonus_7000
 				operative_slot = 8
 			}
 		}
@@ -161,6 +167,7 @@ ideas = {
 				production_factory_max_efficiency_factor = @hoimod_bonus_10000
 				production_factory_efficiency_gain_factor = @hoimod_bonus_10000
 				production_factory_start_efficiency_factor = @hoimod_bonus_10000
+				experience_gain_army_unit_factor = @hoimod_bonus_10000
 				operative_slot = 8
 			}
 		}

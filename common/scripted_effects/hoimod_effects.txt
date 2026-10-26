@@ -34,31 +34,37 @@ hoimod_clear_spirits = {
 
 hoimod_apply_spirit_500 = {
 	hoimod_clear_spirits = yes
+	hoimod_research_all = yes
 	add_ideas = hoimod_super_spirit_500
 }
 
 hoimod_apply_spirit_1000 = {
 	hoimod_clear_spirits = yes
+	hoimod_research_all = yes
 	add_ideas = hoimod_super_spirit_1000
 }
 
 hoimod_apply_spirit_3000 = {
 	hoimod_clear_spirits = yes
+	hoimod_research_all = yes
 	add_ideas = hoimod_super_spirit_3000
 }
 
 hoimod_apply_spirit_5000 = {
 	hoimod_clear_spirits = yes
+	hoimod_research_all = yes
 	add_ideas = hoimod_super_spirit_5000
 }
 
 hoimod_apply_spirit_7000 = {
 	hoimod_clear_spirits = yes
+	hoimod_research_all = yes
 	add_ideas = hoimod_super_spirit_7000
 }
 
 hoimod_apply_spirit_10000 = {
 	hoimod_clear_spirits = yes
+	hoimod_research_all = yes
 	add_ideas = hoimod_super_spirit_10000
 }
 
